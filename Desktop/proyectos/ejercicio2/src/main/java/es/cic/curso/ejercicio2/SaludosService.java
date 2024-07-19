@@ -26,5 +26,4 @@ try {
         return "Prueba SaludosService ";
     }
 
-    
 }
