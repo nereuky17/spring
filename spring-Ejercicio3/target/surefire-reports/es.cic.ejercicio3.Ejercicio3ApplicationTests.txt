@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: es.cic.ejercicio3.Ejercicio3ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.073 s <<< FAILURE! -- in es.cic.ejercicio3.Ejercicio3ApplicationTests
+es.cic.ejercicio3.Ejercicio3ApplicationTests.testGetSaludo -- Time elapsed: 0.015 s <<< FAILURE!
+java.lang.AssertionError: Response content expected:<Hola, ¿cómo estás?> but was:<"Hola, Â¿quÃ© tal?">
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers.lambda$string$4(ContentResultMatchers.java:148)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at es.cic.ejercicio3.Ejercicio3ApplicationTests.testGetSaludo(Ejercicio3ApplicationTests.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
