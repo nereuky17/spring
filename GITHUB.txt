@@ -1,0 +1,29 @@
+Crear Key
+---------
+ls -la
+correo@no.no
+correo_no
+
+cat .ssh/id_25519.pun
+
+
+git remote add origin https://github.com/nereuky17/spring.git la url 
+git remot -v
+
+hacer commit antes-> git commit -m ""
+SI no funciona ese commit git commit -a
+git push -u origin main 
+
+
+git commit -m add
+git push 
+
+BORRAR MAIN O ORIGIN-> git remote rm origin o main -u
+
+nomail@no.no
+
+git config --gloal user.email ""
+git config --global user.name""
+git checkout -b "rama"
+git add.
+git push --set-upstream origin Ejercicio3

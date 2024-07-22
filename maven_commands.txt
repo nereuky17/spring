@@ -1,0 +1,251 @@
+
+sudo apt install Maven
+
+mkdir carpeta donde meter los proyectos
+
+Arrancar proyecto con Maven(Creación proyecto):
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+rebase coomit--(dentro de una rama y entre ramas)
+
+sudo apt install git 
+git init
+ls -la
+
+git status 
+
+git add.(añade todos)
+git add pom.xml src/ target/
+
+nano .gitignore
+
+git commit
+Para hacer commit-> git config --global user.email "curso02@nomail.com"
+		 -> git config --global user.name "curso02"
+
+mvn validate
+
+Compilar el proyecto:
+mvn compile
+
+nano .gitignore
+
+después de el nano hacemos el git commit -m "Comentario"
+
+En pom cambiar properties de maven.compiler por 1.8
+
+Ejecutar pruebas unitarias:
+mvn test
+
+Empaquetar el proyecto:
+mvn package
+
+Ejecutar el proyecto:
+mvn spring-boot:run
+
+Limpiar el proyecto:
+mvn clean
+
+Instalar el proyecto en el repositorio local:
+mvn install
+
+Generar documentación del proyecto:
+mvn site
+
+Verificar el proyecto:
+mvn verify
+
+-----------
+Orden
+HELP.md
+sudo apt install git 
+git init
+
+
+nano .gitignore (añadimos el target/ para no añadirlo al commit)
+
+
+git add.(añade todos)
+git add pom.xml src/ (target/ no)
+
+mvn test
+mvn package
+
+mvn clean(si queremos limpiar el target)
+
+
+
+
+Tarea -> vsc descargar .deb    . Eclipse
+
+-----------
+Spring
+JAva enterprise
+JSE
+
+código,configuración,convección(proyecto )
+
+
+
+-------------------------
+
+árbol binario= puede tener 2 hijos(2 ramas)
+
+Testing unitario
+
+16/07/2024
+----------
+Tarea
+- dos tipos de api que hay en el jdk 
+
+API de Colecciones (Java Collections Framework)
+El Java Collections Framework es una parte fundamental del JDK que proporciona una arquitectura unificada para representar y manipular colecciones. Esta API incluye interfaces, implementaciones y algoritmos para trabajar con estructuras de datos como listas, conjuntos, mapas y colas.
+
+public class CollectionsExample {
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<>();
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Cherry");
+
+        Collections.sort(list);
+
+        for (String fruit : list) {
+            System.out.println(fruit);
+        }
+    }
+}
+
+
+ API de Concurrencia (java.util.concurrent)
+La API de Concurrencia, introducida en Java 5, proporciona mecanismos para manejar múltiples hilos y tareas concurrentes de manera eficiente y segura. Esta API facilita el desarrollo de aplicaciones que pueden realizar múltiples tareas simultáneamente, aprovechando mejor los recursos del sistema.
+
+
+public class ConcurrencyExample {
+    public static void main(String[] args) {
+        ExecutorService executor = Executors.newFixedThreadPool(2);
+
+        Runnable task1 = () -> {
+            System.out.println("Task 1: " + Thread.currentThread().getName());
+        };
+
+        Runnable task2 = () -> {
+            System.out.println("Task 2: " + Thread.currentThread().getName());
+        };
+
+        executor.submit(task1);
+        executor.submit(task2);
+
+        executor.shutdown();
+    }
+}
+
+
+API de Colecciones (Java Collections Framework): Proporciona una arquitectura unificada para representar y manipular colecciones de datos, como listas, conjuntos, mapas y colas.
+API de Concurrencia (java.util.concurrent): Ofrece herramientas para manejar la concurrencia y el paralelismo, permitiendo la ejecución eficiente y segura de múltiples tareas simultáneamente
+
+- Buscar padtrasversal
+
+Es un intento malicioso de engañar a una aplicación web para que muestre el contenido de un directorio distinto del solicitado por el usuario y así obtener acceso a archivos confidenciales en un servidor.
+
+      https://www.stackhawk.com/blog/what-is-path-traversal/#what-conditions-are-required-for-a-successful-path-traversal-attack
+     
+-java.lang
+-java Lang object 
+
+  tostring:
+  equals: Igualar a algo(object.equals(""))
+  hascode:
+
+https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Method.html#toString--
+
+-Regular expresión
+https://mvnrepository.com/open-source/regular-expression-libraries?p=2
+
+-interface,mocks,excepciones
+
+-ARQUETIPO MAVEN EN ECLIPSE: 
+	-Maven-Maven proyect-use default workspace location - select an archetype(quickstart)-grupo id(es.cic.curso9-artifact id(ejerc004)
+
+17/07/2024
+---------
+
+Crear Key
+---------
+ls -la
+correo@no.no
+correo_no
+
+cat .ssh/id_25519.pun
+
+
+git remote add origin la url 
+git remot -v
+
+hacer commit antes-> git commit -m ""
+git pushs -u origin main 
+
+nomail@no.no
+
+
+
+
+testing
+automatización
+
+cic-form-2024
+
+openjdo 11
+
+
+adoptium-> 
+
+instalar por comando: sudo apt install openjdk-21-jdk
+sudo update-alternatives config-- java
+Herramienta que gestione proyectos: sudo apt install
+
+mvn --versión 
+
+ls -la /usr/lib/jvm
+ls -la /usr/lib/java
+
+asus_1998NEasi
+
+https://start.spirng.io
+
+springweb,spring jpa,h2,boot devtools,boot actuator,security
+
+
+
+
+sdkman
+
+
+
+18/07/2024
+----------
+->Montar Servidor
+-> Code Http:  https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP
+->mvn dependency:tree
+->mvn package
+->curl http://localhost:8080/actuator 
+->netstat -plnt | grep 8080(par localizar proceso)
+->abrir en vsual un terminal con el siguiente comando mvn spring-boot:run
+-> en el otro terminal abierto en visual studio corremos le url http://localhost:8080/(la ruta que pusimos en el controller ne nuestro caso /saludos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
