@@ -14,8 +14,7 @@ try {
         throw new Exception();
     }
 } catch (Exception e) {
-    
-    throw new SaludosException("Error",e);
+    System.out.println(" Error random "+e.getLocalizedMessage());
 }
         
 
@@ -27,5 +26,4 @@ try {
         return "Prueba SaludosService ";
     }
 
-    
 }
