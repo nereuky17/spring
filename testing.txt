@@ -1,0 +1,32 @@
+testing
+automatización
+
+cic-form-2024
+
+openjdo 11
+
+
+adoptium-> 
+
+instalar por comando: sudo apt install openjdk-21-jdk
+sudo update-alternatives config-- java
+Herramienta que gestione proyectos: sudo apt install
+
+mvn --versión 
+
+ls -la /usr/lib/jvm
+ls -la /usr/lib/java
+
+asus_1998NEasi
+
+https://start.spirng.io
+
+springweb,spring jpa,h2,boot devtools,boot actuator,security
+
+
+
+
+sdkman
+
+
+

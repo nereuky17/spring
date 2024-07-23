@@ -1,0 +1,40 @@
+- implementar 6 ensayos con tipo opciones
+
+Crear tabla Control Mensual
+
+columnas(tener de referencia análisis de compra), no añadir tipo análisis y rango análisis
+
+Elegir ensayos y solo permitir las opciones de
+
+Identificación de fibras, resistencia, composición, grado de polimerización, grado de blanco , incrustación inorgánica, restos
+
+
+3,8,9,10,13,14,15
+
+
+
+}|z/JzMJ{G"mo5|%4Ul9
+
+CRTL+P
+
+
+ 
+
+https://dev-lavanderias.crm4.dynamics.com/WebResources/cic_analisis_compras_main.js?preview=1
+
+
+ contorl mensual
+
+Ventanas:
+-General
+ 	-Año
+ 	- Planta
+ 	- Mes
+	-Tipo de muestra
+	-Proveedor
+
+- Estructura y densidad
+-Dimensiones
+-Otros Ensayos
+-Grado de blanco
+-
